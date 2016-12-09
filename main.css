@@ -1,0 +1,73 @@
+body {
+    font-family: Open Sans;
+}
+
+h1, h2 {
+	text-align: center;
+	
+}
+
+ .coffeemug img {
+	height: 100px;
+	width: 100px;
+	padding-left: 50%;
+}
+
+.questioncontainer {
+	height: 125px;
+	width: 50%	
+	border: 2px  solid black;
+	font-size: 60px;
+	background-color: grey;
+	text-align: center;
+	display: flex;
+}
+
+.answerboxesab {
+	display: flex;
+	padding-top: 20px;
+}
+
+.answera {
+	height: 125px;
+	width: 50%;
+	background-color: grey;
+	border: 2px solid black;
+	padding-left: 10px;
+	font-size: 30px;
+	
+}
+
+.answerb {
+	height: 125px;
+	width: 50%;
+	background-color: grey;
+	border: 2px solid black;
+	padding-left: 10px;
+	font-size: 30px;
+	
+}
+
+.answerboxescd {
+	display: flex;
+	padding-top: 20px;
+}
+
+.answerc {
+	height: 125px;
+	width: 50%;
+	background-color: grey;
+	border: 2px solid black;
+	padding-left: 10px;
+	font-size: 30px;
+	
+}
+
+.answerd {
+	height: 125px;
+	width: 50%;
+	background-color: grey;
+	border: 2px solid black;
+	padding-left: 10px;
+	font-size: 30px;
+}
