@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">	
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	
 	<title>Coffee Quiz</title>
 			
@@ -11,28 +12,50 @@
 		<div id = 'title'>
 			<h1>Coffee Quiz!</h1>
 				<h2>Welcome! Please click the mug to get started!</h2>
-	</div>
+		</div>
+	</div>	
+	
 	<div class= 'coffeemug'>
 		<img src="http://www.clipartkid.com/images/732/coffee-house-ministry-cup-logo-with-transparent-bkgrd-piHaGI-clipart.png">
 	</div>
+ 
+	<div class = 'splashscreen'>
+		<div class= 'questioncontainer'> <span class="question-text"> </span>	
+		<h3><span class="question-count"></span>  <span class="question-text"></span></h3>
+    </div>
+
+    <div class = "answerpage">
+		<div class= 'answerboxesab'>
+			<div class= 'answera'>  </div>
+			<div class= 'answerb'>  </div>
+		</div>
 	
-	<div class= 'questioncontainer'> "How old is coffee?" </div>
-	
-	<div class= 'answerboxesab'>
-		<div class= 'answera'> A </div>
-		<div class= 'answerb'> B </div>
-	</div>
-	
-	<div class= 'answerboxescd'>
-		<div class= 'answerc'> C </div>
-		<div class= 'answerd'> D </div>
-	</div>
-	<div class = 'questionumber'>
-	<p> Question 10/10 </p>
-	<div class = 'score'>
-	<p>Score: </p>
+		<div class= 'answerboxescd'>
+			<div class= 'answerc'>  </div>
+			<div class= 'answerd'>  </div>
+	 	</div>
+
+		<div class = 'questionumber'>
+		<p> </p>
+		<div class = 'score'>
+		<p></p>
+		</div>
 	</div>
 
+	<div class="answer-feedback-page" style="display: none;">
+        <div class="feedback-container">
+          <div class="feedback-header"></div>
+          <p class="feedback-text"></p>
+          <button class="see-next"></button>
+        </div>
+    </div>
+
+    <div class ="start-over">
+    	 <button class="restart-game">Start over</button>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
 
 </body>
 </html>

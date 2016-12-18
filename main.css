@@ -1,5 +1,5 @@
 body {
-    font-family: Open Sans;
+    font-family: 'Oswald', sans-serif;
 }
 
 h1, h2 {
@@ -26,6 +26,9 @@ h1, h2 {
 .answerboxesab {
 	display: flex;
 	padding-top: 20px;
+	cursor: pointer;
+
+
 }
 
 .answera {
@@ -35,6 +38,7 @@ h1, h2 {
 	border: 2px solid black;
 	padding-left: 10px;
 	font-size: 30px;
+
 	
 }
 
@@ -51,6 +55,7 @@ h1, h2 {
 .answerboxescd {
 	display: flex;
 	padding-top: 20px;
+	cursor: pointer;
 }
 
 .answerc {
